@@ -1,23 +1,25 @@
 *{
     padding: 0;
     margin: 0;
-    color: rgb(5, 5, 5);
+    color: rgb(246, 235, 235);
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     border: none;
 }
 body{
-    background-image: url('image/FB_IMG_1660572484519.jpg');
+   
     width: 100%;
-    height: 100vh;
-    background-size: 100% 110vh;
+    height: 110%;
+    background-size: 100% ;
     position: relative;
     background-repeat: no-repeat;
 }
 header{
+    color: rgb(14, 13, 13);
     position:boutom;
     text-align: center;
-    width: 75%;
+    width: 100%;
+    height: 100%;
     left: 12%;
     top: 2rem;
 }
@@ -27,7 +29,7 @@ header h1{
 .empty{
     width: 100%;
     height: 100vh;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgb(20, 19, 19);
     position: absolute;
     top: 0px;
     left: 0;
@@ -36,11 +38,12 @@ header h1{
 
 .content{
     display: flex;
-    min-height: 110vh;
+    min-height: 100%;
 }
 .content section{
-    margin-top: 8vh;
+    margin-top: 10px;
     margin-left: 20vh;
+    margin:bottom;
 }
 .content-form{
     margin-top: 7rem;
@@ -49,8 +52,8 @@ section i{
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-color: rgba(19, 18, 18, 0.8);
-    color: black;
+    background-color: rgb(252, 251, 251);
+    color: rgb(11, 11, 11);
     text-align: center;
 }
 .form{
@@ -160,4 +163,7 @@ section i{
         top: 190vh;
         right: 30px;
     }
+}
+p{
+text-align: center;
 }
